@@ -1,0 +1,121 @@
+.hero{
+  padding-top: 175px;
+  background-image: url("../images/banner-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  /* padding-bottom: 175px; */
+}
+
+.hero-container{
+  width:620px;
+  height:150px;
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: flex-end; /* Safari 7.0+ */
+  display: flex;
+  align-items: flex-end;
+  color:#fff;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right; 
+  flex-grow: 1;
+  line-height: 180%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 100px;
+}
+
+.hero-image{
+  height:100%;
+}
+
+.hero-container-question{
+  margin-top:20px;
+  width:620px;
+}
+
+.hero-input{
+  height:38px;
+  margin-left:300px;
+  width:stretch;
+  border-radius:5px;
+  padding-left:10px;
+  font-size:15px;
+}
+.hero-input:focus{
+  border-color:#36cba2;
+  outline: 0 none;
+}
+
+.hero-button{
+  margin-top:20px;
+  background-color:#4D4D4D;
+  float:right;
+  padding: 12px 30px 12px 30px;
+  border:0;
+  color:white;
+  border-radius: 5px;
+}
+
+.hero-button:hover{
+  background-color:#36cba2;
+  color: black;
+  cursor:pointer;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero-title{
+    padding:10px;
+  }
+  .hero-container{
+    width:97%;
+    font-size:15px;
+  }
+  .hero-container-question{
+    margin-top:20px;
+    width:97%;
+  }
+  .hero-input{
+    margin-left:10px;
+  }
+  .hero-button{
+    /* margin-left:10px; */
+    width: 97%;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .hero-title{
+    padding:10px;
+  }
+  .hero-container{
+    width:80%;
+  }
+  .hero-container-question{
+    margin-top:20px;
+    width:80%;
+  }
+  .hero-input{
+    margin-left:200px;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  and (max-width: 991px){
+  .hero-container{
+    width:70%;
+  }
+  .hero-container-question{
+    width:70%;
+  }
+} 

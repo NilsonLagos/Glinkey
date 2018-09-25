@@ -1,0 +1,101 @@
+.footer-wrapper{
+  background-color:#303133;
+  height: 230px;
+  padding:30px;
+}
+.footer-wrapper-upper-line{
+  display:flex;
+  justify-content: space-between;
+}
+.footer-link{
+  text-decoration: none;
+  color:#f2f2f2;
+ 
+}
+.footer-link:hover{
+  color:#36cba2;
+  font-size:12px;
+}
+.footer-link-wrapper{
+  margin: 10px;
+  font-size:10px;
+}
+.footer-links{
+  padding-left:230px;
+}
+.footer-newsletter{
+  padding-right: 300px;
+  color:white;
+  font-size:14px;
+}
+.footer-email-input{
+  margin-top:10px;
+  height:28px;
+  border-radius:5px;
+  font-size:15px;
+}
+.footer-email-input:focus{
+  border:2px solid #36cba2;
+  outline: 0 none;
+}
+.footer-send-button{
+  height:28px;
+  padding: 0px 10px 0px 10px;
+  color:white;
+  background-color:#303133;
+  border:1px solid #36cba2;;
+  border-radius: 2px;
+}
+.footer-send-button:hover{
+  background-color:#36cba2;
+  cursor:pointer;
+  color:black;
+}
+.item-social>a:hover{
+ opacity:1;
+ color:#36cba2;
+ box-shadow:0 0 0 1px rgba(54,203,162,.4);
+}
+.item-social>a{
+  font-size:20px;width:36px;height:36px;line-height:36px;display:inline-block;text-align:center;border-radius:50%;box-shadow:0 0 0 1px rgba(255,255,255,.4);margin:0 8px;color:#fff;opacity:.75
+}
+.item-social{
+  text-align: center;
+}
+.footer-terms-conditions{
+  text-align: center;
+  color: #bfbfbf;
+  padding-top:15px;
+  font-size:10px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footer-links{
+    padding-left:10px;
+  }
+  .footer-newsletter{
+    padding-right: 12px;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .footer-links{
+    padding-left:50px;
+  }
+  .footer-newsletter{
+    padding-right: 60px;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  and (max-width: 991px){
+ .footer-links{
+   padding-left:100px;
+ }
+ .footer-newsletter{
+   padding-right: 120px;
+ }
+} 
